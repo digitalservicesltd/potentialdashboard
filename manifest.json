@@ -1,0 +1,25 @@
+{
+    "name": "PFA Fees Manager",
+    "short_name": "PFA Fees",
+    "description": "Potential Finder Academy — Student Fees Management",
+    "start_url": "/potentialdashboard/",
+    "scope": "/potentialdashboard/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#7C3AED",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/potentialdashboard/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/potentialdashboard/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

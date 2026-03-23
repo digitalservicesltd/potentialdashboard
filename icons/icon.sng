@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 512 512" width="512" height="512">
+  
+  <rect width="512" height="512" rx="80" fill="#1a0533"/>
+  
+  <text x="256" y="300" 
+        font-family="Arial" 
+        font-size="260" 
+        font-weight="bold"
+        text-anchor="middle" 
+        fill="#7C3AED">₹</text>
+  
+  <path d="M 160 180 L 256 140 L 352 180 L 256 220 Z" 
+        fill="white" opacity="0.9"/>
+  <rect x="230" y="220" width="52" height="80" 
+        fill="white" opacity="0.9"/>
+  <ellipse cx="256" cy="300" rx="60" ry="20" 
+           fill="white" opacity="0.9"/>
+  
+  <rect x="340" y="185" width="16" height="90" 
+        fill="white" opacity="0.7"/>
+  <ellipse cx="348" cy="275" rx="16" ry="10" 
+           fill="#7C3AED"/>
+</svg>
+```
+
+---
+
+## Icon PNG Banane Ka Tarika
+
+**Free tool:** https://cloudconvert.com/svg-to-png
+
+Steps:
+1. `icon.svg` upload karo
+2. Width: **192**, Height: **192** → Convert → Download → naam rakho `icon-192.png`
+3. Dobara upload karo Width: **512**, Height: **512** → Convert → Download → naam rakho `icon-512.png`
+
+---
+
+## Final Folder Structure
+```
+potentialdashboard/
+├── index.html      ← modified (head + body changes)
+├── manifest.json   ← new file
+├── sw.js           ← new file
+└── icons/
+    ├── icon.svg    ← new file
+    ├── icon-192.png ← convert karke add karo
+    └── icon-512.png ← convert karke add karo
+```
+
+---
+
+## GitHub Push Ke Baad Install Steps
+```
+1. Chrome mein open karo:
+   digitalservicesltd.github.io/potentialdashboard/
+
+2. 3 dots (⋮) → "Add to Home Screen" → "Add"
+
+3. Home screen pe "PFA Fees" icon dikhega!
